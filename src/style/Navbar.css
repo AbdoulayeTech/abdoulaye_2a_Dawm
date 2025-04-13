@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #062c52; /* Couleur de fond sombre */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    width: 100%; /* S'assure que la liste occupe toute la largeur */
+  }
+  
+  .nav-item {
+    margin: 0 15px; /* Ajoute un espacement entre les liens */
+  }
+  
+  .nav-link {
+    color: #ffffff; /* Couleur du texte */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 50px; /* Taille de la police */
+    text-transform: uppercase; /* Met le texte en majuscules */
+    transition: color 0.3s ease; /* Animation pour le changement de couleur */
+  }
+  
+  .nav-link:hover {
+    color: #61dafb; /* Couleur au survol */
+  }
